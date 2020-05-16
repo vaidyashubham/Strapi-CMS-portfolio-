@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "projects",
+  "kind": "singleType",
+  "collectionName": "abouts",
   "info": {
-    "name": "project"
+    "name": "about"
   },
   "options": {
     "increments": true,
@@ -13,7 +13,7 @@
       "type": "string",
       "required": true
     },
-    "description": {
+    "info": {
       "type": "text",
       "required": true
     },
@@ -26,19 +26,6 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true
-    },
-    "github": {
-      "type": "string",
-      "required": true
-    },
-    "url": {
-      "type": "string",
-      "required": true
-    },
-    "featured": {
-      "type": "boolean",
-      "default": false,
       "required": true
     },
     "stack": {
