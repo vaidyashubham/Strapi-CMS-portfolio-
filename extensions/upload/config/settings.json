@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "YOUR_API",
+    "api_key": "YOUR_KEY",
+    "api_secret": "YOUR_SECRET"
+  }
+}
